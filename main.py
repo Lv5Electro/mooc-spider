@@ -2,7 +2,6 @@ from selenium import webdriver
 import time
 import xlwt
 
-as
 wb = xlwt.Workbook()
 ws = wb.add_sheet('answer')
 style = xlwt.XFStyle()
