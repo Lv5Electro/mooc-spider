@@ -2,6 +2,9 @@ from selenium import webdriver
 import time
 import xlwt
 
+
+test = '代码测试'
+
 wb = xlwt.Workbook()
 ws = wb.add_sheet('answer')
 style = xlwt.XFStyle()
@@ -11,7 +14,6 @@ al.vert = 0x01
 style.alignment = al
 # 设置宽度
 ws.col(0).width = 256 * 50
-
 # 选择题数量
 num1 = 45
 # 填空题数量
