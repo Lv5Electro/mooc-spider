@@ -19,11 +19,11 @@ num2 = 10
 num3 = 10
 
 # 账号
-unameId = "15073230912"
+unameId = ""
 # 密码
-passwordId = "548926520."
+passwordId = ""
 # url
-login_url = 'http://mooc1.hnsyu.net/work/doHomeWorkNew?courseId=204033648&classId=14307514&workId=9309566&workAnswerId=17933921&reEdit=1&isdisplaytable=2&mooc=1&enc=5afaaf9625c85f480732d0a3ab166286&workSystem=0&cpi=68491570&standardEnc=009f4eb1819faea9a7eaa4ef2588dbd4'
+login_url = ''
 option = webdriver.ChromeOptions()
 driver = webdriver.Chrome(chrome_options=option)
 driver.maximize_window()
